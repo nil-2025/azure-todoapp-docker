@@ -1,7 +1,7 @@
 # A sample todo app in react
 ## DockerFile
 >FROM node:18-alpine AS installer
-WORKDIR /app
+>WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
